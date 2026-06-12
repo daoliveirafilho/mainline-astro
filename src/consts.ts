@@ -1,20 +1,20 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-export const SITE_TITLE = "Mainline - Modern Astro Template";
+export const SITE_TITLE = "Rekall";
 export const SITE_DESCRIPTION =
-  "A modern, fully featured Astro template built with Shadcn/UI, TailwindCSS and TypeScript, perfect for your next web application.";
+  "Log all data.";
 
 export const GITHUB_URL =
-  "https://github.com/shadcnblocks/mainline-astro-template";
+  "https://github.com/daoliveirafilho";
 
 export const SITE_METADATA = {
   title: {
-    default: "Mainline - Modern Astro Template",
-    template: "%s | Mainline",
+    default: "Rekall",
+    template: "%s | Rekall",
   },
   description:
-    "A modern Astro template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
+    "Log all data.",
   keywords: [
     "Astro",
     "astro template",
@@ -30,9 +30,9 @@ export const SITE_METADATA = {
     "mdx theme",
     "mdx starter",
   ],
-  authors: [{ name: "shadcnblocks.com" }],
-  creator: "shadcnblocks.com",
-  publisher: "shadcnblocks.com",
+  authors: [{ name: "rekall.log.br" }],
+  creator: "rekall.log.br",
+  publisher: "rekall.log.br",
   robots: {
     index: true,
     follow: true,
@@ -49,25 +49,25 @@ export const SITE_METADATA = {
     shortcut: [{ url: "/favicon/favicon.ico" }],
   },
   openGraph: {
-    title: "Mainline - Modern Astro Template",
+    title: "Rekall",
     description:
-      "A modern Astro template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
-    siteName: "Mainline",
+      "Log all data.",
+    siteName: "Rekall",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Mainline - Modern Astro Template",
+        alt: "Rekall - Log all data",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mainline - Modern Astro Template",
+    title: "Rekall",
     description:
-      "A modern Astro template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
+      "Log all data.",
     images: ["/og-image.jpg"],
-    creator: "@ausrobdev",
+    creator: "@rekall",
   },
 };
