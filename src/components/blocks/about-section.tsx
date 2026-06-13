@@ -17,10 +17,11 @@ export const AboutSection = () => {
         <TextSection
           title="The team"
           paragraphs={[
-"Construir solu&ccedil;&otilde;es por meio de computa&ccedil;&atilde;o confi&aacute;vel, da nuvem &agrave; borda.",
-"Consolidar-se no mercado de solu&ccedil;&otilde;es computacionais, em comprometimento com inova&ccedil;&atilde;o e adequa&ccedil;&atilde;o.",
-"Qualidade e confiabilidade de servi&ccedil;o. Transpar&ecirc;ncia e verdade na atua&ccedil;&atilde;o e inclus&atilde;o digital.",
-"Transpar&ecirc;ncia e verdade na atua&ccedil;&atilde;o e inclus&atilde;o digital.",
+"Our Mission: To build resilient computing solutions from the cloud to the edge, driving digital inclusion through innovative and adaptable technology.",
+"Our Vision: To solidify our leadership in the computing solutions market by continuously evolving alongside our clients' needs.",
+"Our Values:",
+"Reliability: Delivering exceptional service quality and dependable infrastructure.",
+"Integrity: Acting with absolute truth, transparency, and ethical standards in every digital interaction.",
           ]}
           ctaButton={{
             href: "/careers",
@@ -33,10 +34,7 @@ export const AboutSection = () => {
       <div className="flex flex-col gap-8 lg:gap-16 xl:gap-20">
         <TextSection
           paragraphs={[
-"Gerenciamento de eleva&ccedil;&atilde;o de privil&eacute;gios por tempo limitado com controles de acesso granulares.",
-"Gerenciamento de sess&otilde;es privilegiadas com monitoramento em tempo real.",
-"Gerenciamento do ciclo de vida de chaves SSH e certificados SSL/TLS.",
-"Governan&ccedil;a de contas privilegiadas e controles de acesso detalhados.",
+"We empower organizations by building reliable computing solutions that span seamlessly from the cloud to the edge. Our commitment to continuous innovation and adaptation allows us to strengthen our position as a trusted market leader. Driven by service quality, operational transparency, and a passion for digital inclusion, we ensure your technology infrastructure is built on absolute trust and truth.",
           ]}
         />
         <ImageSection

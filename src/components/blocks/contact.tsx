@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Twitter } from "lucide-react";
+import { Telegram, Github, Medium } from "lucide-react";
 
 import { DashedLine } from "../dashed-line";
 
@@ -48,13 +48,13 @@ suporte@rekall.log.br
     content: (
 <div className="mt-3 flex gap-6 lg:gap-10">
 <a href="#" className="text-muted-foreground hover:text-foreground">
-<Facebook className="size-5" />
+<Telegram className="size-5" />
 </a>
 <a href="#" className="text-muted-foreground hover:text-foreground">
-<Twitter className="size-5" />
+<Github className="size-5" />
 </a>
 <a href="#" className="text-muted-foreground hover:text-foreground">
-<Linkedin className="size-5" />
+<Medium className="size-5" />
 </a>
 </div>
     ),
@@ -87,7 +87,7 @@ Hopefully this form gets through our spam filters.
 <div className="mx-auto">
 <h2 className="text-lg font-semibold">Inquiries</h2>
 <p className="text-muted-foreground mt-4 text-center leading-snug font-medium lg:mx-auto">
-If you want to submit your own entry, the format is quite rigid. Mail to contato at rekall.log.br, with a Subject: line containing the word "support".
+If you want to submit your own inquiry, the format is quite rigid. Mail to contato at rekall.log.br, with a Subject: line containing the word "inquiry".
 </p>
 </div>
 </div>
