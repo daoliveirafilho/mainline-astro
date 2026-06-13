@@ -15,12 +15,10 @@ import DefaultLayout from '@/layouts/DefaultLayout.astro';
 <DefaultLayout title={SITE_TITLE} description={SITE_DESCRIPTION} >
 <Background className="via-muted to-muted/80">
 <Hero />
-</Background>
-<Testimonials client:only='react'/>
-<Background variant="bottom">
 <Features />
-</Background>
-<Background className="via-muted to-muted/80">
 <ResourceAllocation />
+</Background>
+<Background variant="bottom">
+<Testimonials client:only='react'/>
 </Background>
 </DefaultLayout>
