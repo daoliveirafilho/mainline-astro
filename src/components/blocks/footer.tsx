@@ -82,13 +82,6 @@ export function Footer() {
           xmlns="http://www.w3.org/2000/svg"
           className="w-full"
         >
-    <rect
-       style="fill:#f8f8f8;"
-       id="rect0-1"
-       width="1570"
-       height="127"
-       x="0"
-       y="0" />
           <defs>
             <linearGradient
               id="paint0_linear_59_191"
