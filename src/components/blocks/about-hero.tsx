@@ -33,7 +33,7 @@ Log all data.
 </p>
 
 <p className="text-muted-foreground mt-8 hidden max-w-lg space-y-6 text-lg text-balance md:block lg:mt-12">
-Eliminando a complexidade dos gateways tradicionais e entregando seus dados diretamente em uma infraestrutura distribu&iacute;da, assegurando performance e escalabilidade.
+Eliminate the complexity of traditional gateways and deliver data directly to a distributed infrastructure, ensuring performance and scalability.
 </p>
 </div>
 
