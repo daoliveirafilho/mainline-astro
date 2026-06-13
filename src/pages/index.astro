@@ -10,17 +10,15 @@ import { ResourceAllocation } from '@/components/blocks/resource-allocation';
 import { Testimonials } from '@/components/blocks/testimonials';
 import DefaultLayout from '@/layouts/DefaultLayout.astro';
 
-
-
 ---
 
 <DefaultLayout title={SITE_TITLE} description={SITE_DESCRIPTION} >
-  <Background className="via-muted to-muted/80">
-    <Hero />
-    <Features />
-    <ResourceAllocation />
-  </Background>
-  <Background variant="bottom">
-  <Testimonials client:only='react'/>
-  </Background>
+<Background className="via-muted to-muted/80">
+<Hero />
+<Testimonials client:only='react'/>
+</Background>
+<Background variant="bottom">
+<Features />
+<ResourceAllocation />
+</Background>
 </DefaultLayout>
