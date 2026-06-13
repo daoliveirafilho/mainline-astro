@@ -13,8 +13,8 @@ export function Footer() {
   ];
 
   const social = [
-    { name: "Xwitter", href: "https://x.com/ausrobdev" },
-    { name: "LinkedIn", href: "#" },
+    { name: "Github", href: "https://github.com/daoliveirafilho" },
+    { name: "Medium", href: "https://medium.com/@da.oliveira.filho" },
   ];
 
   const legal = [{ name: "Privacy Policy", href: "/privacy" }];
@@ -81,7 +81,15 @@ export function Footer() {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className="w-full"
-        >
+        ><g>
+    <rect
+       style="fill:#f8f8f8;"
+       id="rect0-1"
+       width="1570"
+       height="127"
+       x="0"
+       y="0" />
+</g>
           <defs>
             <linearGradient
               id="paint0_linear_59_191"
