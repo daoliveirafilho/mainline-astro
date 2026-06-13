@@ -81,23 +81,21 @@ export const Testimonials = ({
 }) => {
   return (
     <>
-      <section className={cn("overflow-hidden py-28 lg:py-32", className)}>
-        <div className="container">
-          <div className="space-y-4">
-            <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-              Trusted by product builders
-            </h2>
-            <p className="text-muted-foreground max-w-md leading-snug">
-              Mainline is built on the habits that make the best product teams
-              successful: staying focused, moving quickly, and always aiming for
-              high-quality work.
-            </p>
-            <Button variant="outline" className="shadow-md">
-              Read our Customer Stories <ArrowRight className="size-4" />
-            </Button>
-          </div>
+<section className={cn("overflow-hidden py-28 lg:py-32", className)}>
+<div className="container">
+<div className="space-y-4">
+<h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
+From cloud to edge, we build computing solutions you can trust
+</h2>
+<p className="text-muted-foreground max-w-md leading-snug">
+Driven by innovation and adaptation, we are consolidating our market position through premium service quality, radical transparency, and a core commitment to digital inclusion.
+</p>
+<Button variant="outline" className="shadow-md">
+Read our Customer Stories <ArrowRight className="size-4" />
+</Button>
+</div>
 
-          <div className="relative mt-8 -mr-[max(3rem,calc((100vw-80rem)/2+3rem))] md:mt-12 lg:mt-20">
+<div className="relative mt-8 -mr-[max(3rem,calc((100vw-80rem)/2+3rem))] md:mt-12 lg:mt-20">
             <Carousel
               opts={{
                 align: "start",

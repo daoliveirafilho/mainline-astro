@@ -32,16 +32,14 @@ export const Features = () => {
         </div>
 
         {/* Content */}
-        <div className="mx-auto mt-10 grid max-w-4xl items-center gap-3 md:gap-0 lg:mt-24 lg:grid-cols-2">
-          <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-            Made for modern product teams
-          </h2>
-          <p className="text-muted-foreground leading-snug">
-            Mainline is built on the habits that make the best product teams
-            successful: staying focused, moving quickly, and always aiming for
-            high-quality work.
-          </p>
-        </div>
+<div className="mx-auto mt-10 grid max-w-4xl items-center gap-3 md:gap-0 lg:mt-24 lg:grid-cols-2">
+<h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
+Made for modern product teams
+</h2>
+<p className="text-muted-foreground leading-snug">
+Acting with absolute truth, transparency, and ethical standards in every digital interaction. Delivering exceptional service quality and dependable infrastructure.
+</p>
+</div>
 
         {/* Features Card */}
         <Card className="mt-8 rounded-3xl md:mt-12 lg:mt-20">
