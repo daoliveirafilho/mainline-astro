@@ -48,13 +48,13 @@ suporte@rekall.log.br
     content: (
 <div className="mt-3 flex gap-6 lg:gap-10">
 <a href="#" className="text-muted-foreground hover:text-foreground">
-<Telegram className="size-5" />
+<Facebook className="size-5" />
 </a>
 <a href="#" className="text-muted-foreground hover:text-foreground">
-<Github className="size-5" />
+<Twitter className="size-5" />
 </a>
 <a href="#" className="text-muted-foreground hover:text-foreground">
-<Medium className="size-5" />
+<Linkedin className="size-5" />
 </a>
 </div>
     ),
