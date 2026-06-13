@@ -39,13 +39,12 @@ export const Hero = () => {
       <div className="container flex flex-col justify-between gap-8 md:gap-14 lg:flex-row lg:gap-20">
         {/* Left side - Main content */}
         <div className="flex-1">
-          <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl xl:whitespace-nowrap">
-            Mainline Astro template
-          </h1>
+<h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl xl:whitespace-nowrap">
+Servidor de configura&ccedil;&atilde;o autom&aacute;tica (ACS).
+</h1>
 
-          <p className="text-muted-foreground text-1xl mt-5 md:text-3xl">
-            Mainline is an open-source website template built with shadcn/ui,
-            Tailwind 4 & Astro 5
+<p className="text-muted-foreground text-1xl mt-5 md:text-3xl">
+O objetivo &eacute; gerenciar uma cole&ccedil;&atilde;o de CPE com o modo de gerenciamento baseado no protocolo TR069 e no desenvolvimento da conexão WAN baseada em OMCI privado. O protocolo TR069 descreve um mecanismo que constr&oacute;i uma estrutura segura de configura&ccedil;&atilde;o e gerenciamento autom&aacute;ticos para CPE por ACS e adiciona a fun&ccedil;&atilde;o de gerenciamento do CPE a esta estrutura.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">
