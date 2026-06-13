@@ -16,27 +16,26 @@ import { GITHUB_URL } from "@/consts";
 import { cn } from "@/lib/utils";
 
 const ITEMS = [
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
   {
     label: "Features",
     href: "#features",
     dropdownItems: [
       {
-        title: "Modern product teams",
+        title: "Privileged access management",
         href: "/#feature-modern-teams",
         description:
-          "Mainline is built on the habits that make the best product teams successful",
+          "Made for modern product teams",
       },
       {
         title: "Resource Allocation",
         href: "/#resource-allocation",
-        description: "Mainline your resource allocation and execution",
+        description: "Simplify the distribution and use of your resources",
       },
     ],
   },
-  { label: "About Us", href: "/about" },
-  { label: "Pricing", href: "/pricing" },
   { label: "FAQ", href: "/faq" },
-  { label: "Contact", href: "/contact" },
 ];
 
 export const Navbar = () => {
@@ -60,7 +59,7 @@ export const Navbar = () => {
           <img
             src="/logo.svg"
             alt="logo"
-            width={94}
+            width={100}
             height={18}
             className="dark:invert"
           />
