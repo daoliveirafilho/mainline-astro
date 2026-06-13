@@ -19,7 +19,6 @@ const ITEMS = [
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
   { label: "Pricing", href: "/pricing" },
-  { label: "FAQ", href: "/faq" },
 ];
 
 export const Navbar = () => {
