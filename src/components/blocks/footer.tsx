@@ -5,11 +5,7 @@ import { GITHUB_URL } from "@/consts";
 
 export function Footer() {
   const navigation = [
-    { name: "Product", href: "/#feature-modern-teams" },
-    { name: "About Us", href: "/about" },
-    { name: "Pricing", href: "/pricing" },
     { name: "FAQ", href: "/faq" },
-    { name: "Contact", href: "/contact" },
   ];
 
   const social = [
