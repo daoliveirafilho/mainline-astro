@@ -18,23 +18,7 @@ import { cn } from "@/lib/utils";
 const ITEMS = [
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
-  {
-    label: "Features",
-    href: "#features",
-    dropdownItems: [
-      {
-        title: "Privileged access management",
-        href: "/#feature-modern-teams",
-        description:
-          "Made for modern product teams",
-      },
-      {
-        title: "Resource Allocation",
-        href: "/#resource-allocation",
-        description: "Simplify the distribution and use of your resources",
-      },
-    ],
-  },
+  { label: "Pricing", href: "/pricing" },
   { label: "FAQ", href: "/faq" },
 ];
 
