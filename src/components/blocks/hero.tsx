@@ -13,22 +13,22 @@ import { GITHUB_URL } from "@/consts";
 const features = [
   {
     title: "Tailored workflows",
-    description: "Track progress across custom issue flows for your team.",
+    description: "Governan&ccedil;a de contas privilegiadas e controles de acesso detalhados.",
     icon: CircleDot,
   },
   {
     title: "Cross-team projects",
-    description: "Collaborate across teams and departments.",
+    description: "Gerenciamento do ciclo de vida de chaves SSH e certificados SSL/TLS.",
     icon: Blend,
   },
   {
     title: "Milestones",
-    description: "Break projects down into concrete phases.",
+    description: "Gerenciamento de sess&otilde;es privilegiadas com monitoramento em tempo real.",
     icon: Diamond,
   },
   {
     title: "Progress insights",
-    description: "Track scope, velocity, and progress over time.",
+    description: "Gerenciamento de eleva&ccedil;&atilde;o de privil&eacute;gios por tempo limitado com controles de acesso granulares.",
     icon: ChartNoAxesColumn,
   },
 ];
@@ -40,11 +40,11 @@ export const Hero = () => {
         {/* Left side - Main content */}
         <div className="flex-1">
 <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl xl:whitespace-nowrap">
-Servidor de configura&ccedil;&atilde;o autom&aacute;tica (ACS).
+Gerenciamento de acesso privilegiado
 </h1>
 
 <p className="text-muted-foreground text-1xl mt-5 md:text-3xl">
-O objetivo &eacute; gerenciar uma cole&ccedil;&atilde;o de CPE com o modo de gerenciamento baseado no protocolo TR069 e no desenvolvimento da conexão WAN baseada em OMCI privado. O protocolo TR069 descreve um mecanismo que constr&oacute;i uma estrutura segura de configura&ccedil;&atilde;o e gerenciamento autom&aacute;ticos para CPE por ACS e adiciona a fun&ccedil;&atilde;o de gerenciamento do CPE a esta estrutura.
+Servidor de configura&ccedil;&atilde;o autom&aacute;tica (ACS).
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">
