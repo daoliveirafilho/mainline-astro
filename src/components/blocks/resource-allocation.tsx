@@ -115,10 +115,10 @@ export const ResourceAllocation = () => {
       id="resource-allocation"
       className="overflow-hidden pb-28 lg:pb-32"
     >
-      <div className="">
-        <h2 className="container text-center text-3xl tracking-tight text-balance sm:text-4xl md:text-5xl lg:text-6xl">
-          Mainline your resource allocation and execution
-        </h2>
+<div className="">
+<h2 className="container text-center text-3xl tracking-tight text-balance sm:text-4xl md:text-5xl lg:text-6xl">
+Simplify the distribution and use of your resources
+</h2>
 
         <div className="mt-8 md:mt-12 lg:mt-20">
           <DashedLine

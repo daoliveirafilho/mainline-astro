@@ -12,23 +12,23 @@ import { GITHUB_URL } from "@/consts";
 
 const features = [
   {
-    title: "Tailored workflows",
-    description: "Governan&ccedil;a de contas privilegiadas e controles de acesso detalhados.",
+    title: "Diagnostics and Telemetry",
+    description: "Tracks network performance, retrieves device states, and resolves errors remotely.",
     icon: CircleDot,
   },
   {
-    title: "Cross-team projects",
-    description: "Gerenciamento do ciclo de vida de chaves SSH e certificados SSL/TLS.",
+    title: "Firmware Management",
+    description: "Software updates and security patches without manual, on-site intervention.",
     icon: Blend,
   },
   {
-    title: "Milestones",
-    description: "Gerenciamento de sess&otilde;es privilegiadas com monitoramento em tempo real.",
+    title: "Multi Vendor Platform",
+    description: "Allows network operators to manage hardware from various manufacturers through a single, centralized platform.",
     icon: Diamond,
   },
   {
-    title: "Progress insights",
-    description: "Gerenciamento de eleva&ccedil;&atilde;o de privil&eacute;gios por tempo limitado com controles de acesso granulares.",
+    title: "Zero-Touch Provisioning",
+    description: "Automatically pushes configuration profiles to CPE.",
     icon: ChartNoAxesColumn,
   },
 ];
@@ -40,14 +40,14 @@ export const Hero = () => {
         {/* Left side - Main content */}
         <div className="flex-1">
 <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl xl:whitespace-nowrap">
-Gerenciamento de acesso privilegiado
+Privileged access management
 </h1>
 
 <p className="text-muted-foreground text-1xl mt-5 md:text-3xl">
-Servidor de configura&ccedil;&atilde;o autom&aacute;tica (ACS).
-          </p>
+A centralized management system used to automatically configure, monitor, and update network devices, such as routers, modems, and IoT devices.
+</p>
 
-          <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">
+<div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">
             <Button asChild>
               <a href={GITHUB_URL}>Get template</a>
             </Button>
