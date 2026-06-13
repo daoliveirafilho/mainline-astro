@@ -33,9 +33,6 @@ Log all data.
 </p>
 
 <p className="text-muted-foreground mt-8 hidden max-w-lg space-y-6 text-lg text-balance md:block lg:mt-12">
-Construir solu&ccedil;&otilde;es por meio de computa&ccedil;&atilde;o confi&aacute;vel, da nuvem &agrave; borda. Consolidar-se no mercado de solu&ccedil;&otilde;es computacionais, em comprometimento com inova&ccedil;&atilde;o e adequa&ccedil;&atilde;o. Qualidade e confiabilidade de servi&ccedil;o. Transpar&ecirc;ncia e verdade na atua&ccedil;&atilde;o e inclus&atilde;o digital.
-<br />
-<br />
 Eliminando a complexidade dos gateways tradicionais e entregando seus dados diretamente em uma infraestrutura distribu&iacute;da, assegurando performance e escalabilidade.
 </p>
 </div>

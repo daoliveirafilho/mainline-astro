@@ -17,9 +17,10 @@ export const AboutSection = () => {
         <TextSection
           title="The team"
           paragraphs={[
-            "We started building Mainline in 2019 and launched in 2022. Every endpoint has been designed from the ground up — with no technical debt or legacy systems. We are purpose-built to power project management innovation for the next hundred years.",
-            "We are 100% founder and team-owned, profitable, and we keep our team lean. Over time, this page will become more polished, but for now, we're focused on delivering for developers.",
-            "If you're interested in building the future of PM, check out our open roles below.",
+"Construir solu&ccedil;&otilde;es por meio de computa&ccedil;&atilde;o confi&aacute;vel, da nuvem &agrave; borda.",
+"Consolidar-se no mercado de solu&ccedil;&otilde;es computacionais, em comprometimento com inova&ccedil;&atilde;o e adequa&ccedil;&atilde;o.",
+"Qualidade e confiabilidade de servi&ccedil;o. Transpar&ecirc;ncia e verdade na atua&ccedil;&atilde;o e inclus&atilde;o digital.",
+"Transpar&ecirc;ncia e verdade na atua&ccedil;&atilde;o e inclus&atilde;o digital.",
           ]}
           ctaButton={{
             href: "/careers",
@@ -32,8 +33,10 @@ export const AboutSection = () => {
       <div className="flex flex-col gap-8 lg:gap-16 xl:gap-20">
         <TextSection
           paragraphs={[
-            "At Mainline, we are dedicated to transforming the way teams plan, execute, and deliver projects. Our mission is to provide our customers with an unbeatable edge over delays, inefficiencies, and disorganisation through actionable insights and seamless collaboration. We'll stop at nothing to give you the tools you need to get every project across the finish line.",
-            "We're customer-obsessed — investing the time to understand every aspect of your workflow so that we can help you operate better than ever before. We're all in this together because your success is our success. In our history as a company, we've never lost a customer, because when your projects succeed, so do we.",
+"Gerenciamento de eleva&ccedil;&atilde;o de privil&eacute;gios por tempo limitado com controles de acesso granulares.",
+"Gerenciamento de sess&otilde;es privilegiadas com monitoramento em tempo real.",
+"Gerenciamento do ciclo de vida de chaves SSH e certificados SSL/TLS.",
+"Governan&ccedil;a de contas privilegiadas e controles de acesso detalhados.",
           ]}
         />
         <ImageSection
