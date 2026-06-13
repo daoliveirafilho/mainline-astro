@@ -117,19 +117,6 @@ export const Navbar = () => {
         {/* Auth Buttons */}
         <div className="flex items-center gap-2.5">
           <ThemeToggle />
-          <a href="/login" className="max-lg:hidden">
-            <Button variant="outline">
-              <span className="relative z-10">Login</span>
-            </Button>
-          </a>
-          <a
-            href={GITHUB_URL}
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <Github className="size-4" />
-            <span className="sr-only">GitHub</span>
-          </a>
-
           {/* Hamburger Menu Button (Mobile Only) */}
           <button
             className="text-muted-foreground relative flex size-8 lg:hidden"
