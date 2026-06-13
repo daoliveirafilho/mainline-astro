@@ -14,22 +14,22 @@ const features = [
   {
     title: "Diagnostics and Telemetry",
     description: "Tracks network performance, retrieves device states, and resolves errors remotely.",
-    icon: CircleDot,
+    icon: ChartNoAxesColumn,
   },
   {
     title: "Firmware Management",
     description: "Software updates and security patches without manual, on-site intervention.",
-    icon: Blend,
+    icon: CircleDot,
   },
   {
     title: "Multi Vendor Platform",
     description: "Allows network operators to manage hardware from various manufacturers through a single, centralized platform.",
-    icon: Diamond,
+    icon: Blend,
   },
   {
     title: "Zero-Touch Provisioning",
     description: "Automatically pushes configuration profiles to CPE.",
-    icon: ChartNoAxesColumn,
+    icon: Diamond,
   },
 ];
 
@@ -44,7 +44,7 @@ Privileged access management
 </h1>
 
 <p className="text-muted-foreground text-1xl mt-5 md:text-3xl">
-A centralized management system used to automatically configure, monitor, and update network devices, such as routers, modems, and IoT devices.
+A centralized management system used to automatically configure, monitor, and update network devices.
 </p>
 
 <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">
