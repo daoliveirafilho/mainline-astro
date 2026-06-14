@@ -2,20 +2,20 @@ import { DashedLine } from "@/components/dashed-line";
 
 const stats = [
   {
-    value: "$150M",
+    value: "$150",
     label: "Raised",
   },
   {
-    value: "20K",
-    label: "Companies",
+    value: "20",
+    label: "Projects",
   },
   {
     value: "1.3B",
     label: "Monthly transactions",
   },
   {
-    value: "1.5K",
-    label: "Connections per minute",
+    value: "3",
+    label: "Coffes per minute",
   },
 ];
 
@@ -29,11 +29,25 @@ About us
 </h1>
 
 <p className="text-muted-foreground mt-5 text-2xl md:text-3xl lg:text-4xl">
-Log all data.
+Our Mission
 </p>
-
 <p className="text-muted-foreground mt-8 hidden max-w-lg space-y-6 text-lg text-balance md:block lg:mt-12">
-Eliminate the complexity of traditional gateways and deliver data directly to a distributed infrastructure, ensuring performance and scalability.
+To build resilient computing solutions from the cloud to the edge, driving digital inclusion through innovative and adaptable technology.
+</p>
+<p className="text-muted-foreground mt-5 text-2xl md:text-3xl lg:text-4xl">
+Our Vision
+</p>
+<p className="text-muted-foreground mt-8 hidden max-w-lg space-y-6 text-lg text-balance md:block lg:mt-12">
+To solidify our leadership in the computing solutions market by continuously evolving alongside our clients' needs.
+</p>
+<p className="text-muted-foreground mt-5 text-2xl md:text-3xl lg:text-4xl">
+Our Values
+</p>
+<p className="text-muted-foreground mt-8 hidden max-w-lg space-y-6 text-lg text-balance md:block lg:mt-12">
+Reliability: Delivering exceptional service quality and dependable infrastructure.
+</p>
+<p className="text-muted-foreground mt-8 hidden max-w-lg space-y-6 text-lg text-balance md:block lg:mt-12">
+Integrity: Acting with absolute truth, transparency, and ethical standards in every digital interaction.
 </p>
 </div>
 

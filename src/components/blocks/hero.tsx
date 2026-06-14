@@ -44,7 +44,7 @@ Privileged access management
 </h1>
 
 <p className="text-muted-foreground text-1xl mt-5 md:text-3xl">
-A centralized management system used to automatically configure, monitor, and update network devices.
+A centralized management system to automatically configure, monitor, and update network devices.
 </p>
 
 <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">
@@ -57,10 +57,10 @@ A centralized management system used to automatically configure, monitor, and up
               asChild
             >
               <a
-                href="https://shadcnblocks.com"
+                href="https://rekall.log.br"
                 className="max-w-56 truncate text-start md:max-w-none"
               >
-                Built by shadcnblocks.com
+                Built by rekall
                 <ArrowRight className="stroke-3" />
               </a>
             </Button>
@@ -93,16 +93,6 @@ A centralized management system used to automatically configure, monitor, and up
               </div>
             );
           })}
-        </div>
-      </div>
-
-      <div className="mt-12 max-lg:ml-6 max-lg:h-[550px] max-lg:overflow-hidden md:mt-20 lg:container lg:mt-24">
-        <div className="relative h-[793px] w-full">
-          <img
-            src="/hero.webp"
-            alt="hero"
-            className="w-full rounded-2xl object-cover object-left-top shadow-lg max-lg:rounded-tr-none"
-          />
         </div>
       </div>
     </section>

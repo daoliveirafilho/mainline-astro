@@ -32,11 +32,7 @@ export const AboutSection = () => {
       <div className="flex flex-col gap-8 lg:gap-16 xl:gap-20">
         <TextSection
           paragraphs={[
-"Our Mission: To build resilient computing solutions from the cloud to the edge, driving digital inclusion through innovative and adaptable technology.",
-"Our Vision: To solidify our leadership in the computing solutions market by continuously evolving alongside our clients' needs.",
-"Our Values:",
-"Reliability: Delivering exceptional service quality and dependable infrastructure.",
-"Integrity: Acting with absolute truth, transparency, and ethical standards in every digital interaction.",
+"Eliminate the complexity of traditional gateways and deliver data directly to adistributed infrastructure, ensuring performance and scalability.",
           ]}
         />
         <ImageSection
