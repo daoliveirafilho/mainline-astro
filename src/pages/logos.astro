@@ -1,0 +1,14 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+import { Background } from '@/components/background';
+import { Logos } from '@/components/blocks/logos';
+import DefaultLayout from '@/layouts/DefaultLayout.astro';
+
+---
+
+<DefaultLayout title={SITE_TITLE} description={SITE_DESCRIPTION} >
+  <Background className="via-muted to-muted/80">
+    <Logos client:only="react"/> 
+  </Background>
+</DefaultLayout>
