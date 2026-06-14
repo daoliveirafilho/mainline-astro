@@ -96,7 +96,15 @@ A centralized management system used to automatically configure, monitor, and up
         </div>
       </div>
 
-      
+      <div className="mt-12 max-lg:ml-6 max-lg:h-[550px] max-lg:overflow-hidden md:mt-20 lg:container lg:mt-24">
+        <div className="relative h-[793px] w-full">
+          <img
+            src="/hero.webp"
+            alt="hero"
+            className="w-full rounded-2xl object-cover object-left-top shadow-lg max-lg:rounded-tr-none"
+          />
+        </div>
+      </div>
     </section>
   );
 };
